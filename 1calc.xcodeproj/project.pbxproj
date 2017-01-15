@@ -14,6 +14,8 @@
 		84DB2D4D1E28ED50001242A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84DB2D4B1E28ED50001242A7 /* LaunchScreen.storyboard */; };
 		84DB2D581E28ED50001242A7 /* _calcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DB2D571E28ED50001242A7 /* _calcTests.swift */; };
 		84DB2D631E28ED50001242A7 /* _calcUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DB2D621E28ED50001242A7 /* _calcUITests.swift */; };
+		84DB2D711E29018B001242A7 /* images.png in Resources */ = {isa = PBXBuildFile; fileRef = 84DB2D701E29018B001242A7 /* images.png */; };
+		84DB2D731E29042D001242A7 /* images.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 84DB2D721E29042D001242A7 /* images.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		84DB2D5E1E28ED50001242A7 /* 1calcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 1calcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84DB2D621E28ED50001242A7 /* _calcUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _calcUITests.swift; sourceTree = "<group>"; };
 		84DB2D641E28ED50001242A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84DB2D701E29018B001242A7 /* images.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = images.png; sourceTree = "<group>"; };
+		84DB2D721E29042D001242A7 /* images.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 		84DB2D411E28ED50001242A7 /* 1calc */ = {
 			isa = PBXGroup;
 			children = (
+				84DB2D721E29042D001242A7 /* images.jpeg */,
+				84DB2D701E29018B001242A7 /* images.png */,
 				84DB2D421E28ED50001242A7 /* AppDelegate.swift */,
 				84DB2D441E28ED50001242A7 /* ViewController.swift */,
 				84DB2D461E28ED50001242A7 /* Main.storyboard */,
@@ -233,8 +239,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				84DB2D4D1E28ED50001242A7 /* LaunchScreen.storyboard in Resources */,
+				84DB2D731E29042D001242A7 /* images.jpeg in Resources */,
 				84DB2D4A1E28ED50001242A7 /* Assets.xcassets in Resources */,
 				84DB2D481E28ED50001242A7 /* Main.storyboard in Resources */,
+				84DB2D711E29018B001242A7 /* images.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -487,6 +495,7 @@
 				84DB2D691E28ED50001242A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84DB2D6A1E28ED50001242A7 /* Build configuration list for PBXNativeTarget "1calcTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +504,7 @@
 				84DB2D6C1E28ED50001242A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84DB2D6D1E28ED50001242A7 /* Build configuration list for PBXNativeTarget "1calcUITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +513,7 @@
 				84DB2D6F1E28ED50001242A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
