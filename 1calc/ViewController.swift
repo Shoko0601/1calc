@@ -58,6 +58,45 @@ class ViewController: UIViewController {
         genjituText.text = String(mon)
     }
     
+    @IBAction func but4(sender: AnyObject) {
+        a = 4
+        mon = mon*10 + a
+        genjituText.text = String(mon)    }
+    
+    @IBAction func but5(sender: AnyObject) {
+        a = 5
+        mon = mon*10 + a
+        genjituText.text = String(mon)    }
+    
+    @IBAction func but6(sender: AnyObject) {
+        a = 6
+        mon = mon*10 + a
+        genjituText.text = String(mon)
+    }
+    
+    @IBAction func but7(sender: AnyObject) {
+        a = 7
+        mon = mon*10 + a
+        genjituText.text = String(mon)
+    }
+    
+    @IBAction func but8(sender: AnyObject) {
+        a = 8
+        mon = mon*10 + a
+        genjituText.text = String(mon)
+    }
+    
+   
+    @IBAction func but9(sender: AnyObject) {
+        a = 9
+        mon = mon*10 + a
+        genjituText.text = String(mon)
+    }
+    
+    
+    
+    
+    
     
     
     @IBAction func but(sender: AnyObject) {

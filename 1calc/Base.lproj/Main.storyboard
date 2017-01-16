@@ -37,16 +37,25 @@
                                 <rect key="frame" x="28" y="364" width="30" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="4"/>
+                                <connections>
+                                    <action selector="but4:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5q3-eN-nce"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fFC-ZW-ZRe">
                                 <rect key="frame" x="106" y="364" width="30" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="5"/>
+                                <connections>
+                                    <action selector="but5:" destination="BYZ-38-t0r" eventType="touchUpInside" id="U5x-ZK-Ofc"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HrQ-sE-Awo">
                                 <rect key="frame" x="176" y="364" width="30" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="6"/>
+                                <connections>
+                                    <action selector="but6:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tWx-xf-aft"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ULq-Sq-DEM">
                                 <rect key="frame" x="106" y="392" width="30" height="30"/>
@@ -55,11 +64,17 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="8"/>
+                                <connections>
+                                    <action selector="but8:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KZV-Cs-Fom"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i4h-62-w5Q">
-                                <rect key="frame" x="176" y="392" width="30" height="30"/>
+                                <rect key="frame" x="176" y="392" width="30" height="29"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="9"/>
+                                <connections>
+                                    <action selector="but9:" destination="BYZ-38-t0r" eventType="touchUpInside" id="29Y-3h-N4a"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zF6-NA-bPV">
                                 <rect key="frame" x="106" y="425" width="30" height="30"/>
@@ -104,6 +119,9 @@
                                 <rect key="frame" x="33" y="412" width="30" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="7"/>
+                                <connections>
+                                    <action selector="but7:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YIL-Sv-a0j"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hev-AM-RX5">
                                 <rect key="frame" x="11" y="71" width="99" height="58"/>
