@@ -10,25 +10,21 @@ import UIKit
 
 
 
-    
-    
 class ViewController: UIViewController {
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-    }
-    
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
+override func viewDidLoad() {
+    super.viewDidLoad()
+}
+
+override func didReceiveMemoryWarning() {
+    super.didReceiveMemoryWarning()
+    //Dispose of any resources that can; be; recreated.
+}
 
 
- 
-  
+
     @IBOutlet weak var genjituText: UITextField!
-    
-         
+
+
     var mon : Double = 0//モニタ1
     var a : Double = 0//モニタ1
     var cal : Double = 0//計算
@@ -229,4 +225,41 @@ class ViewController: UIViewController {
         print(mon)
         han = 0
     }
+    
+    class UIViweController : UIViewController, UITextFieldDelegate{
+        @IBOutlet weak var lab6: UILabel!
+        @IBOutlet weak var lab3: UILabel!
+        @IBOutlet weak var textZai: UITextField!
+        @IBOutlet weak var textKab: UITextField!
+        
+        override func viewDidLoad(){
+            super.viewDidLoad()
+            
+            textZai.delegate = self
+        }
+        func textField(textField: UITextField, shouldChangeCharactersInRange range: NSRange, replacementString string: String) -> Bool {
+           
+            var zai = textZai.text! as NSString
+            zai = zai.stringByReplacingCharactersInRange(range, withString: string)
+            
+            if zai == "" {
+                lab3.text = "0"
+            }else{
+                let num = Int(zai as String)
+                lab3.text = String(num! * 6)
+            }
+        return true
+    }
+        func textFieldShouldClear(textField: UITextField) -> Bool {
+            lab3.text = "0"
+            return true
+        }
+    @IBAction func tap1(sender: UITapGestureRecognizer) {
+        self.view.endEditing(true)
+        }
+        override func didReceiveMemoryWarning() {
+            super.didReceiveMemoryWarning()
+        }
+    }
+    
 }
